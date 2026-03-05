@@ -1,4 +1,8 @@
-cd webflux
+git add .; 
+git commit -m "Changes webflux common"; 
+git push -u origin HEAD;
+
+cd ../webflux
 git add .; 
 git commit -m "Changes webflux"; 
 git push -u origin HEAD;
