@@ -1,7 +1,6 @@
 version: "3.8"
 
 services:
-
   nginx:
     image: nginx:alpine
     ports:
@@ -45,6 +44,7 @@ services:
     image: grafana/grafana:latest
     environment:
       GF_SECURITY_ADMIN_PASSWORD: admin
+      # login to grafana admin/admin and add prometheus service url to get vizualization
     ports:
       - "3000:3000"
     depends_on:
