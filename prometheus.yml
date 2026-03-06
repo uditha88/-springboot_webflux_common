@@ -6,5 +6,6 @@ scrape_configs:
   - job_name: "webflux"
     metrics_path: "/actuator/prometheus"
     static_configs:
-      - targets: ["webflux:8080"]
+      - targets: ["webflux:8081"]
+    # see above we define what app will feed to pronotheus
 # Optional: configure Prometheus retention/storage here
