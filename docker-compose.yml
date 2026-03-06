@@ -44,7 +44,7 @@ services:
     image: grafana/grafana:latest
     environment:
       GF_SECURITY_ADMIN_PASSWORD: admin
-      # login to grafana admin/admin and add prometheus service url to get vizualization
+      # login to grafana admin/admin and add prometheus service (datasource->prometheus) url to get vizualization
       # note sometimes incognito needed
     ports:
       - "3000:3000"
