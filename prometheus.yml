@@ -8,4 +8,5 @@ scrape_configs:
     static_configs:
       - targets: ["webflux:8081"]
     # see above we define what app will feed to pronotheus
+    # can be seen at browser: http://127.0.0.1:8081/actuator/prometheus
 # Optional: configure Prometheus retention/storage here
