@@ -45,6 +45,7 @@ services:
     environment:
       GF_SECURITY_ADMIN_PASSWORD: admin
       # login to grafana admin/admin and add prometheus service url to get vizualization
+      # note sometimes incognito needed
     ports:
       - "3000:3000"
     depends_on:
