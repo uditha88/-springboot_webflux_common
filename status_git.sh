@@ -1,3 +1,7 @@
+echo "webflux common"
+git status;
+read -p "Press enter to check next"
+
 echo "webflux";
 cd ../webflux
 git status;
