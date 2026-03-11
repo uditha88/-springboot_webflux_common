@@ -18,6 +18,10 @@ services:
       - "8081:8081"
     environment:
       SERVER_PORT: 8081
+      # Configure Spring Boot to log to a file that Promtail can access
+      LOGGING_FILE_NAME: /app/logs/spring-boot-app.log
+    volumes:
+      - ./logs:/app/logs # Mount a local logs directory to the container
     networks:
       - monitoring-net
 
@@ -27,6 +31,10 @@ services:
       - "8082:8082"
     environment:
       SERVER_PORT: 8082
+      # Configure Spring Boot to log to a file that Promtail can access
+      LOGGING_FILE_NAME: /app/logs/spring-boot-app2.log
+    volumes:
+      - ./logs:/app/logs # Mount a local logs directory to the container
     networks:
       - monitoring-net
 
@@ -50,6 +58,31 @@ services:
       - "3000:3000"
     depends_on:
       - prometheus
+      - loki
+    volumes:
+      - ./grafana/provisioning:/etc/grafana/provisioning
+    networks:
+      - monitoring-net
+
+  loki:
+    image: grafana/loki:2.4.1
+    command: -config.file=/etc/loki/local-config.yaml
+    ports:
+      - "3100:3100"
+    volumes:
+      - loki-data:/loki
+    networks:
+      - monitoring-net
+  # to test in browser: http://localhost:3100/ready
+  # then add "loki" under "Explorer" in Grafana
+  promtail:
+    image: grafana/promtail:2.4.1
+    volumes:
+      - ./promtail-config.yml:/etc/promtail/config.yml:ro
+      # Mount the shared log directory so promtail can read the application logs
+      - ./logs:/var/log
+    depends_on:
+      - loki
     networks:
       - monitoring-net
 
@@ -78,6 +111,9 @@ services:
       KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
     networks:
       - monitoring-net
+
+volumes:
+  loki-data:
 
 networks:
   monitoring-net:
