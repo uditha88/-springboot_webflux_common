@@ -1,3 +1,4 @@
+# reads log from backend technology & send them to "Loki"
 server:
   http_listen_port: 9080
   grpc_listen_port: 0
@@ -7,6 +8,7 @@ positions:
 
 clients:
   - url: http://loki:3100/loki/api/v1/push
+# promtail writing logs to loki
 
 scrape_configs:
   - job_name: springboot-apps

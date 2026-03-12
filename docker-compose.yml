@@ -10,7 +10,7 @@ services:
     depends_on:
       - webflux
     networks:
-      - monitoring-net
+      - spring_boot_docker_network_uditha
 
   webflux:
     image: uditha/spring_webflux:latest
@@ -23,7 +23,7 @@ services:
     volumes:
       - ./logs:/app/logs # Mount a local logs directory to the container
     networks:
-      - monitoring-net
+      - spring_boot_docker_network_uditha
 
   webflux2:
     image: uditha/spring_webflux_2:latest
@@ -36,7 +36,7 @@ services:
     volumes:
       - ./logs:/app/logs # Mount a local logs directory to the container
     networks:
-      - monitoring-net
+      - spring_boot_docker_network_uditha
 
   prometheus:
     image: prom/prometheus:latest
@@ -46,7 +46,7 @@ services:
     ports:
       - "9090:9090"
     networks:
-      - monitoring-net
+      - spring_boot_docker_network_uditha
 
   grafana:
     image: grafana/grafana:latest
@@ -62,19 +62,21 @@ services:
     volumes:
       - ./grafana/provisioning:/etc/grafana/provisioning
     networks:
-      - monitoring-net
+      - spring_boot_docker_network_uditha
 
   loki:
-    image: grafana/loki:2.4.1
+    image: grafana/loki:latest
+    # once had a issue an old  version had a connection issue from grafana. so used latest
     command: -config.file=/etc/loki/local-config.yaml
     ports:
       - "3100:3100"
     volumes:
       - loki-data:/loki
     networks:
-      - monitoring-net
+      - spring_boot_docker_network_uditha
   # to test in browser: http://localhost:3100/ready
   # then add "loki" under "Explorer" in Grafana
+  # the below promtail is the tool that reads log from bacend technology & send them to "Loki"
   promtail:
     image: grafana/promtail:2.4.1
     volumes:
@@ -84,7 +86,7 @@ services:
     depends_on:
       - loki
     networks:
-      - monitoring-net
+      - spring_boot_docker_network_uditha
 
   zookeeper:
     image: confluentinc/cp-zookeeper:7.4.1
@@ -94,7 +96,7 @@ services:
     ports:
       - "2181:2181"
     networks:
-      - monitoring-net
+      - spring_boot_docker_network_uditha
 
   kafka:
     image: confluentinc/cp-kafka:7.4.1
@@ -110,11 +112,11 @@ services:
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
       KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
     networks:
-      - monitoring-net
+      - spring_boot_docker_network_uditha
 
 volumes:
   loki-data:
 
 networks:
-  monitoring-net:
+  spring_boot_docker_network_uditha:
     driver: bridge
