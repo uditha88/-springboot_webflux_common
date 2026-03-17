@@ -38,6 +38,17 @@ services:
     networks:
       - spring_boot_docker_network_uditha
 
+  keycloak:
+    image: quay.io/keycloak/keycloak:24.0.1
+    command: start-dev
+    environment:
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
+    ports:
+      - "8180:8080"
+    networks:
+      - spring_boot_docker_network_uditha
+    # URL to access" http://127.0.0.1:8180
   prometheus:
     image: prom/prometheus:latest
     volumes:
