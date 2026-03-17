@@ -1,14 +1,12 @@
-echo "webflux common"
+echo "########## webflux common"
 git status;
-read -p "Press enter to check next"
 
-echo "webflux";
+echo "########## webflux";
 cd ../webflux
 git status;
 
-read -p "Press enter to check next"
 
-echo "webflux_2";
+echo "########## webflux_2";
 cd ../webflux_2
 git status;
 

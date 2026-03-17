@@ -165,3 +165,4 @@ org.apache.kafka.common.errors.TimeoutException: The AdminClient thread has exit
 2026-03-17T06:37:22.189Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
 2026-03-17T06:42:22.288Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
 2026-03-17T08:10:53.065Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-17T08:15:53.249Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
