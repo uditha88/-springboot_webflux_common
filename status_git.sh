@@ -1,12 +1,12 @@
-echo "########## webflux common"
+echo "########## webflux common ##########"
 git status;
 
-echo "########## webflux";
+echo "########## webflux ##########";
 cd ../webflux
 git status;
 
 
-echo "########## webflux_2";
+echo "########## webflux_2 ##########";
 cd ../webflux_2
 git status;
 
