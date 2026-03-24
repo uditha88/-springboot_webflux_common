@@ -136,7 +136,7 @@ services:
   jaeger:
     image: jaegertracing/all-in-one:latest
     ports:
-      - "16686:16686" # Jaeger UI
+      - "16686:16686" # Jaeger UI access via http://localhost:16686/search
       - "14268:14268"
       - "14250:14250"
       - "9411:9411" # Zipkin compatible endpoint
