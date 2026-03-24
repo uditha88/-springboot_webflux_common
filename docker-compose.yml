@@ -22,7 +22,7 @@ services:
       LOGGING_FILE_NAME: /app/logs/spring-boot-app.log
       # Configure Zipkin/Jaeger export
       SPRING_APPLICATION_NAME: webflux
-      MANAGEMENT_ZIPKIN_TRACING_ENDPOINT: http://jaeger:9411/api/v2/spans
+      MANAGEMENT_OTLP_TRACING_ENDPOINT: http://jaeger:4318/v1/traces
       MANAGEMENT_TRACING_SAMPLING_PROBABILITY: 1.0
     volumes:
       - ./logs:/app/logs # Mount a local logs directory to the container
@@ -39,7 +39,7 @@ services:
       LOGGING_FILE_NAME: /app/logs/spring-boot-app2.log
       # Configure Zipkin/Jaeger export
       SPRING_APPLICATION_NAME: webflux2
-      MANAGEMENT_ZIPKIN_TRACING_ENDPOINT: http://jaeger:9411/api/v2/spans
+      MANAGEMENT_OTLP_TRACING_ENDPOINT: http://jaeger:4318/v1/traces
       MANAGEMENT_TRACING_SAMPLING_PROBABILITY: 1.0
     volumes:
       - ./logs:/app/logs # Mount a local logs directory to the container
@@ -140,6 +140,8 @@ services:
       - "14268:14268"
       - "14250:14250"
       - "9411:9411" # Zipkin compatible endpoint
+      - "4317:4317" # OTLP gRPC
+      - "4318:4318" # OTLP HTTP
     environment:
       - COLLECTOR_ZIPKIN_HOST_PORT=:9411
     networks:
