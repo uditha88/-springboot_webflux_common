@@ -1,0 +1,970 @@
+2026-03-20T00:26:57.117Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T00:31:57.293Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T00:36:57.497Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T00:41:57.670Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T00:46:57.867Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T00:51:58.054Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T00:56:58.251Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T01:01:58.445Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T01:06:58.638Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T01:18:54.386Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T03:04:12.713Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T03:09:12.910Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T03:14:13.131Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T03:19:13.344Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T03:24:13.590Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T03:29:13.783Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T03:29:28.167Z  INFO 1 --- [webflux_2] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-20T03:29:28.348Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T03:29:28.397Z  INFO 1 --- [webflux_2] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-03-20T03:29:28.452Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T03:29:28.455Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node 1 (kafka/192.168.208.10:9092) could not be established. Node may not be available.
+2026-03-20T03:29:28.557Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T03:29:28.557Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node 1 (kafka/192.168.208.10:9092) could not be established. Node may not be available.
+2026-03-20T03:29:28.727Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for adminclient-1 unregistered
+2026-03-20T03:29:28.730Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.a.k.c.a.i.AdminMetadataManager         : [AdminClient clientId=adminclient-1] Metadata update failed
+
+org.apache.kafka.common.errors.TimeoutException: The AdminClient thread has exited. Call: fetchMetadata
+
+2026-03-20T03:29:28.759Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.a.k.clients.admin.KafkaAdminClient     : [AdminClient clientId=adminclient-1] Timed out 1 remaining operation(s) during close.
+2026-03-20T03:29:28.776Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2026-03-20T03:29:28.776Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-03-20T03:29:28.777Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2026-03-20T03:29:40.110Z  INFO 1 --- [webflux_2] [main] com.example.webflux.WebfluxApplication   : Starting WebfluxApplication v0.0.1-SNAPSHOT using Java 17.0.18 with PID 1 (/app/app.jar started by root in /app)
+2026-03-20T03:29:40.126Z  INFO 1 --- [webflux_2] [main] com.example.webflux.WebfluxApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-20T03:29:52.211Z  INFO 1 --- [webflux_2] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2026-03-20T03:29:52.452Z  INFO 1 --- [webflux_2] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-20T03:29:52.456Z  INFO 1 --- [webflux_2] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2026-03-20T03:29:52.700Z  INFO 1 --- [webflux_2] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-20T03:29:52.704Z  INFO 1 --- [webflux_2] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 11949 ms
+2026-03-20T03:29:55.791Z  INFO 1 --- [webflux_2] [main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [kafka:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2026-03-20T03:29:57.173Z  INFO 1 --- [webflux_2] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.8.1
+2026-03-20T03:29:57.210Z  INFO 1 --- [webflux_2] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 70d6ff42debf7e17
+2026-03-20T03:29:57.211Z  INFO 1 --- [webflux_2] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1773977397152
+2026-03-20T03:29:57.532Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T03:29:57.575Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/192.168.240.10:9092) could not be established. Node may not be available.
+2026-03-20T03:29:57.609Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T03:29:57.616Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/192.168.240.10:9092) could not be established. Node may not be available.
+2026-03-20T03:29:57.722Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T03:29:57.732Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/192.168.240.10:9092) could not be established. Node may not be available.
+2026-03-20T03:29:58.055Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T03:29:58.057Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/192.168.240.10:9092) could not be established. Node may not be available.
+2026-03-20T03:29:58.472Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T03:29:58.473Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/192.168.240.10:9092) could not be established. Node may not be available.
+2026-03-20T03:29:59.427Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T03:29:59.443Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/192.168.240.10:9092) could not be established. Node may not be available.
+2026-03-20T03:30:00.339Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T03:30:00.344Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/192.168.240.10:9092) could not be established. Node may not be available.
+2026-03-20T03:30:01.367Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T03:30:01.377Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/192.168.240.10:9092) could not be established. Node may not be available.
+2026-03-20T03:30:02.438Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T03:30:02.441Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/192.168.240.10:9092) could not be established. Node may not be available.
+2026-03-20T03:30:03.471Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T03:30:03.486Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/192.168.240.10:9092) could not be established. Node may not be available.
+2026-03-20T03:30:04.440Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T03:30:04.442Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/192.168.240.10:9092) could not be established. Node may not be available.
+2026-03-20T03:30:05.560Z  INFO 1 --- [webflux_2] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-03-20T03:30:08.560Z  INFO 1 --- [webflux_2] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2026-03-20T03:30:08.794Z  INFO 1 --- [webflux_2] [main] com.example.webflux.WebfluxApplication   : Started WebfluxApplication in 33.351 seconds (process running for 35.329)
+2026-03-20T03:35:10.933Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T03:40:10.960Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T03:45:11.124Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T03:50:11.276Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T03:55:11.420Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T04:00:11.614Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T04:05:11.803Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T04:10:11.992Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T04:15:12.171Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T04:20:12.362Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T04:21:29.220Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T04:21:29.224Z  INFO 1 --- [webflux_2] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-20T04:21:29.324Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T04:21:29.325Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node 1 (kafka/192.168.240.10:9092) could not be established. Node may not be available.
+2026-03-20T04:21:29.427Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T04:21:29.429Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node 1 (kafka/192.168.240.10:9092) could not be established. Node may not be available.
+2026-03-20T04:21:29.489Z  INFO 1 --- [webflux_2] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-03-20T04:21:29.651Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for adminclient-1 unregistered
+2026-03-20T04:21:29.652Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.a.k.c.a.i.AdminMetadataManager         : [AdminClient clientId=adminclient-1] Metadata update failed
+
+org.apache.kafka.common.errors.TimeoutException: The AdminClient thread has exited. Call: fetchMetadata
+
+2026-03-20T04:21:29.663Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.a.k.clients.admin.KafkaAdminClient     : [AdminClient clientId=adminclient-1] Timed out 1 remaining operation(s) during close.
+2026-03-20T04:21:29.671Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2026-03-20T04:21:29.672Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-03-20T04:21:29.673Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2026-03-20T04:21:38.750Z  INFO 1 --- [webflux_2] [main] com.example.webflux.WebfluxApplication   : Starting WebfluxApplication v0.0.1-SNAPSHOT using Java 17.0.18 with PID 1 (/app/app.jar started by root in /app)
+2026-03-20T04:21:38.779Z  INFO 1 --- [webflux_2] [main] com.example.webflux.WebfluxApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-20T04:21:49.173Z  INFO 1 --- [webflux_2] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2026-03-20T04:21:49.239Z  INFO 1 --- [webflux_2] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-20T04:21:49.240Z  INFO 1 --- [webflux_2] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2026-03-20T04:21:49.428Z  INFO 1 --- [webflux_2] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-20T04:21:49.432Z  INFO 1 --- [webflux_2] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 10297 ms
+2026-03-20T04:21:51.474Z  INFO 1 --- [webflux_2] [main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [kafka:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2026-03-20T04:21:52.313Z  INFO 1 --- [webflux_2] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.8.1
+2026-03-20T04:21:52.318Z  INFO 1 --- [webflux_2] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 70d6ff42debf7e17
+2026-03-20T04:21:52.321Z  INFO 1 --- [webflux_2] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1773980512306
+2026-03-20T04:21:52.487Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:21:52.494Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.18.0.9:9092) could not be established. Node may not be available.
+2026-03-20T04:21:52.539Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:21:52.541Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.18.0.9:9092) could not be established. Node may not be available.
+2026-03-20T04:21:52.666Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:21:52.676Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.18.0.9:9092) could not be established. Node may not be available.
+2026-03-20T04:21:52.898Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:21:52.907Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.18.0.9:9092) could not be established. Node may not be available.
+2026-03-20T04:21:53.322Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:21:53.324Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.18.0.9:9092) could not be established. Node may not be available.
+2026-03-20T04:21:54.137Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:21:54.139Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.18.0.9:9092) could not be established. Node may not be available.
+2026-03-20T04:21:55.161Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:21:55.173Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.18.0.9:9092) could not be established. Node may not be available.
+2026-03-20T04:21:56.142Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:21:56.144Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.18.0.9:9092) could not be established. Node may not be available.
+2026-03-20T04:21:57.176Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:21:57.177Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.18.0.9:9092) could not be established. Node may not be available.
+2026-03-20T04:21:57.550Z  INFO 1 --- [webflux_2] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-03-20T04:21:58.188Z  INFO 1 --- [webflux_2] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2026-03-20T04:21:58.345Z  INFO 1 --- [webflux_2] [main] com.example.webflux.WebfluxApplication   : Started WebfluxApplication in 22.5 seconds (process running for 23.953)
+2026-03-20T04:27:01.219Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:32:01.319Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T04:32:38.470Z  INFO 1 --- [webflux_2] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-20T04:32:38.497Z  INFO 1 --- [webflux_2] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-03-20T04:32:38.505Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T04:32:38.583Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for adminclient-1 unregistered
+2026-03-20T04:32:38.583Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.a.k.c.a.i.AdminMetadataManager         : [AdminClient clientId=adminclient-1] Metadata update failed
+
+org.apache.kafka.common.errors.TimeoutException: The AdminClient thread has exited. Call: fetchMetadata
+
+2026-03-20T04:32:38.587Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.a.k.clients.admin.KafkaAdminClient     : [AdminClient clientId=adminclient-1] Timed out 1 remaining operation(s) during close.
+2026-03-20T04:32:38.591Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2026-03-20T04:32:38.592Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-03-20T04:32:38.593Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2026-03-20T04:32:54.479Z  INFO 1 --- [webflux_2] [main] com.example.webflux.WebfluxApplication   : Starting WebfluxApplication v0.0.1-SNAPSHOT using Java 17.0.18 with PID 1 (/app/app.jar started by root in /app)
+2026-03-20T04:32:54.526Z  INFO 1 --- [webflux_2] [main] com.example.webflux.WebfluxApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-20T04:33:06.323Z  INFO 1 --- [webflux_2] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2026-03-20T04:33:06.441Z  INFO 1 --- [webflux_2] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-20T04:33:06.444Z  INFO 1 --- [webflux_2] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2026-03-20T04:33:06.642Z  INFO 1 --- [webflux_2] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-20T04:33:06.646Z  INFO 1 --- [webflux_2] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 11305 ms
+2026-03-20T04:33:08.554Z  INFO 1 --- [webflux_2] [main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [kafka:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2026-03-20T04:33:09.809Z  INFO 1 --- [webflux_2] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.8.1
+2026-03-20T04:33:09.844Z  INFO 1 --- [webflux_2] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 70d6ff42debf7e17
+2026-03-20T04:33:09.846Z  INFO 1 --- [webflux_2] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1773981189806
+2026-03-20T04:33:10.074Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:33:10.126Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.19.0.9:9092) could not be established. Node may not be available.
+2026-03-20T04:33:10.139Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:33:10.157Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.19.0.9:9092) could not be established. Node may not be available.
+2026-03-20T04:33:10.264Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:33:10.271Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.19.0.9:9092) could not be established. Node may not be available.
+2026-03-20T04:33:10.489Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:33:10.502Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.19.0.9:9092) could not be established. Node may not be available.
+2026-03-20T04:33:10.960Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:33:11.017Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.19.0.9:9092) could not be established. Node may not be available.
+2026-03-20T04:33:11.653Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:33:11.656Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.19.0.9:9092) could not be established. Node may not be available.
+2026-03-20T04:33:18.388Z  INFO 1 --- [webflux_2] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-03-20T04:33:19.616Z  INFO 1 --- [webflux_2] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2026-03-20T04:33:19.817Z  INFO 1 --- [webflux_2] [main] com.example.webflux.WebfluxApplication   : Started WebfluxApplication in 31.833 seconds (process running for 36.013)
+2026-03-20T04:38:18.288Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:43:18.312Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T04:43:18.518Z  INFO 1 --- [webflux_2] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-20T04:43:18.552Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T04:43:18.547Z  INFO 1 --- [webflux_2] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-03-20T04:43:18.662Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T04:43:18.666Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node 1 (kafka/172.19.0.9:9092) could not be established. Node may not be available.
+2026-03-20T04:43:18.734Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for adminclient-1 unregistered
+2026-03-20T04:43:18.740Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.a.k.c.a.i.AdminMetadataManager         : [AdminClient clientId=adminclient-1] Metadata update failed
+
+org.apache.kafka.common.errors.TimeoutException: The AdminClient thread has exited. Call: fetchMetadata
+
+2026-03-20T04:43:18.749Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.a.k.clients.admin.KafkaAdminClient     : [AdminClient clientId=adminclient-1] Timed out 1 remaining operation(s) during close.
+2026-03-20T04:43:18.760Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2026-03-20T04:43:18.762Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-03-20T04:43:18.769Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2026-03-20T04:43:32.940Z  INFO 1 --- [webflux_2] [main] com.example.webflux.WebfluxApplication   : Starting WebfluxApplication v0.0.1-SNAPSHOT using Java 17.0.18 with PID 1 (/app/app.jar started by root in /app)
+2026-03-20T04:43:32.973Z  INFO 1 --- [webflux_2] [main] com.example.webflux.WebfluxApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-20T04:43:46.794Z  INFO 1 --- [webflux_2] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2026-03-20T04:43:46.857Z  INFO 1 --- [webflux_2] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-20T04:43:46.861Z  INFO 1 --- [webflux_2] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2026-03-20T04:43:47.038Z  INFO 1 --- [webflux_2] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-20T04:43:47.044Z  INFO 1 --- [webflux_2] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 13261 ms
+2026-03-20T04:43:49.332Z  INFO 1 --- [webflux_2] [main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [kafka:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2026-03-20T04:43:50.570Z  INFO 1 --- [webflux_2] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.8.1
+2026-03-20T04:43:50.581Z  INFO 1 --- [webflux_2] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 70d6ff42debf7e17
+2026-03-20T04:43:50.584Z  INFO 1 --- [webflux_2] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1773981830551
+2026-03-20T04:43:50.763Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:43:50.804Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.20.0.10:9092) could not be established. Node may not be available.
+2026-03-20T04:43:50.820Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:43:50.827Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.20.0.10:9092) could not be established. Node may not be available.
+2026-03-20T04:43:50.944Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:43:50.945Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.20.0.10:9092) could not be established. Node may not be available.
+2026-03-20T04:43:51.199Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:43:51.205Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.20.0.10:9092) could not be established. Node may not be available.
+2026-03-20T04:43:51.636Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:43:51.645Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.20.0.10:9092) could not be established. Node may not be available.
+2026-03-20T04:43:52.471Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:43:52.480Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.20.0.10:9092) could not be established. Node may not be available.
+2026-03-20T04:43:53.529Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:43:53.535Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.20.0.10:9092) could not be established. Node may not be available.
+2026-03-20T04:43:57.200Z  INFO 1 --- [webflux_2] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-03-20T04:43:58.289Z  INFO 1 --- [webflux_2] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2026-03-20T04:43:58.473Z  INFO 1 --- [webflux_2] [main] com.example.webflux.WebfluxApplication   : Started WebfluxApplication in 31.817 seconds (process running for 34.554)
+2026-03-20T04:46:47.277Z  INFO 1 --- [webflux_2] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-20T04:46:47.294Z  INFO 1 --- [webflux_2] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-03-20T04:46:47.346Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:46:47.350Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T04:46:47.352Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node 1 (kafka/172.20.0.10:9092) could not be established. Node may not be available.
+2026-03-20T04:46:47.354Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for adminclient-1 unregistered
+2026-03-20T04:46:47.355Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.a.k.c.a.i.AdminMetadataManager         : [AdminClient clientId=adminclient-1] Metadata update failed
+
+org.apache.kafka.common.errors.TimeoutException: The AdminClient thread has exited. Call: fetchMetadata
+
+2026-03-20T04:46:47.359Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.a.k.clients.admin.KafkaAdminClient     : [AdminClient clientId=adminclient-1] Timed out 1 remaining operation(s) during close.
+2026-03-20T04:46:47.365Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2026-03-20T04:46:47.366Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-03-20T04:46:47.370Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2026-03-20T04:47:05.462Z  INFO 1 --- [webflux_2] [main] com.example.webflux.WebfluxApplication   : Starting WebfluxApplication v0.0.1-SNAPSHOT using Java 17.0.18 with PID 1 (/app/app.jar started by root in /app)
+2026-03-20T04:47:05.499Z  INFO 1 --- [webflux_2] [main] com.example.webflux.WebfluxApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-20T04:47:18.181Z  INFO 1 --- [webflux_2] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2026-03-20T04:47:18.264Z  INFO 1 --- [webflux_2] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-20T04:47:18.274Z  INFO 1 --- [webflux_2] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2026-03-20T04:47:18.652Z  INFO 1 --- [webflux_2] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-20T04:47:18.660Z  INFO 1 --- [webflux_2] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 12309 ms
+2026-03-20T04:47:20.567Z  INFO 1 --- [webflux_2] [main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [kafka:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2026-03-20T04:47:21.329Z  INFO 1 --- [webflux_2] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.8.1
+2026-03-20T04:47:21.335Z  INFO 1 --- [webflux_2] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 70d6ff42debf7e17
+2026-03-20T04:47:21.337Z  INFO 1 --- [webflux_2] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1773982041325
+2026-03-20T04:47:21.460Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:47:21.472Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.23.0.8:9092) could not be established. Node may not be available.
+2026-03-20T04:47:21.617Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:47:21.655Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.23.0.8:9092) could not be established. Node may not be available.
+2026-03-20T04:47:21.786Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:47:21.794Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.23.0.8:9092) could not be established. Node may not be available.
+2026-03-20T04:47:22.002Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:47:22.004Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.23.0.8:9092) could not be established. Node may not be available.
+2026-03-20T04:47:22.416Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:47:22.417Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.23.0.8:9092) could not be established. Node may not be available.
+2026-03-20T04:47:23.126Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:47:23.127Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.23.0.8:9092) could not be established. Node may not be available.
+2026-03-20T04:47:26.743Z  INFO 1 --- [webflux_2] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-03-20T04:47:28.081Z  INFO 1 --- [webflux_2] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2026-03-20T04:47:28.192Z  INFO 1 --- [webflux_2] [main] com.example.webflux.WebfluxApplication   : Started WebfluxApplication in 30.518 seconds (process running for 33.705)
+2026-03-20T04:51:08.119Z  INFO 1 --- [webflux_2] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-20T04:51:08.133Z  INFO 1 --- [webflux_2] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-03-20T04:51:08.176Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T04:51:08.191Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T04:51:08.194Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node 1 (kafka/172.23.0.8:9092) could not be established. Node may not be available.
+2026-03-20T04:51:08.205Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for adminclient-1 unregistered
+2026-03-20T04:51:08.205Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.a.k.c.a.i.AdminMetadataManager         : [AdminClient clientId=adminclient-1] Metadata update failed
+
+org.apache.kafka.common.errors.TimeoutException: The AdminClient thread has exited. Call: fetchMetadata
+
+2026-03-20T04:51:08.210Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.a.k.clients.admin.KafkaAdminClient     : [AdminClient clientId=adminclient-1] Timed out 1 remaining operation(s) during close.
+2026-03-20T04:51:08.227Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2026-03-20T04:51:08.227Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-03-20T04:51:08.228Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2026-03-20T05:35:15.617Z  INFO 1 --- [webflux_2] [main] com.example.webflux.WebfluxApplication   : Starting WebfluxApplication v0.0.1-SNAPSHOT using Java 17.0.18 with PID 1 (/app/app.jar started by root in /app)
+2026-03-20T05:35:15.637Z  INFO 1 --- [webflux_2] [main] com.example.webflux.WebfluxApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-20T05:35:21.031Z  INFO 1 --- [webflux_2] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2026-03-20T05:35:21.061Z  INFO 1 --- [webflux_2] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-20T05:35:21.063Z  INFO 1 --- [webflux_2] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2026-03-20T05:35:21.181Z  INFO 1 --- [webflux_2] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-20T05:35:21.183Z  INFO 1 --- [webflux_2] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5284 ms
+2026-03-20T05:35:22.142Z  INFO 1 --- [webflux_2] [main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [kafka:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2026-03-20T05:35:22.805Z  INFO 1 --- [webflux_2] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.8.1
+2026-03-20T05:35:22.807Z  INFO 1 --- [webflux_2] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 70d6ff42debf7e17
+2026-03-20T05:35:22.808Z  INFO 1 --- [webflux_2] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1773984922803
+2026-03-20T05:35:22.932Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T05:35:22.950Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.25.0.10:9092) could not be established. Node may not be available.
+2026-03-20T05:35:23.067Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T05:35:23.068Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.25.0.10:9092) could not be established. Node may not be available.
+2026-03-20T05:35:23.172Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T05:35:23.173Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.25.0.10:9092) could not be established. Node may not be available.
+2026-03-20T05:35:23.477Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T05:35:23.478Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.25.0.10:9092) could not be established. Node may not be available.
+2026-03-20T05:35:23.982Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T05:35:23.983Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.25.0.10:9092) could not be established. Node may not be available.
+2026-03-20T05:35:24.822Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T05:35:24.827Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.25.0.10:9092) could not be established. Node may not be available.
+2026-03-20T05:35:25.884Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T05:35:25.886Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.25.0.10:9092) could not be established. Node may not be available.
+2026-03-20T05:35:26.928Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T05:35:26.930Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.25.0.10:9092) could not be established. Node may not be available.
+2026-03-20T05:35:27.129Z  INFO 1 --- [webflux_2] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-03-20T05:35:27.876Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T05:35:27.892Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.25.0.10:9092) could not be established. Node may not be available.
+2026-03-20T05:35:28.534Z  INFO 1 --- [webflux_2] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2026-03-20T05:35:28.658Z  INFO 1 --- [webflux_2] [main] com.example.webflux.WebfluxApplication   : Started WebfluxApplication in 15.311 seconds (process running for 15.807)
+2026-03-20T05:35:28.872Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T05:35:28.881Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.25.0.10:9092) could not be established. Node may not be available.
+2026-03-20T05:35:29.895Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T05:35:29.897Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.25.0.10:9092) could not be established. Node may not be available.
+2026-03-20T05:35:30.818Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T05:35:30.823Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.25.0.10:9092) could not be established. Node may not be available.
+2026-03-20T05:40:33.281Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T05:45:33.372Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T05:50:33.545Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T05:55:33.716Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T06:00:33.906Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T06:05:34.047Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T06:10:34.245Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T06:15:34.448Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T06:20:34.645Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T06:25:34.842Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T06:30:35.042Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T06:35:35.226Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T06:37:29.809Z  INFO 1 --- [webflux_2] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-20T06:37:29.822Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T06:37:29.928Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T06:37:29.929Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node 1 (kafka/172.25.0.10:9092) could not be established. Node may not be available.
+2026-03-20T06:37:29.962Z  INFO 1 --- [webflux_2] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-03-20T06:37:30.131Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T06:37:30.132Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node 1 (kafka/172.25.0.10:9092) could not be established. Node may not be available.
+2026-03-20T06:37:30.161Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for adminclient-1 unregistered
+2026-03-20T06:37:30.163Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.a.k.c.a.i.AdminMetadataManager         : [AdminClient clientId=adminclient-1] Metadata update failed
+
+org.apache.kafka.common.errors.TimeoutException: The AdminClient thread has exited. Call: fetchMetadata
+
+2026-03-20T06:37:30.173Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.a.k.clients.admin.KafkaAdminClient     : [AdminClient clientId=adminclient-1] Timed out 1 remaining operation(s) during close.
+2026-03-20T06:37:30.187Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2026-03-20T06:37:30.202Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-03-20T06:37:30.235Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2026-03-20T06:37:39.891Z  INFO 1 --- [webflux_2] [main] com.example.webflux.WebfluxApplication   : Starting WebfluxApplication v0.0.1-SNAPSHOT using Java 17.0.18 with PID 1 (/app/app.jar started by root in /app)
+2026-03-20T06:37:39.925Z  INFO 1 --- [webflux_2] [main] com.example.webflux.WebfluxApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-20T06:37:51.363Z  INFO 1 --- [webflux_2] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2026-03-20T06:37:51.450Z  INFO 1 --- [webflux_2] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-20T06:37:51.485Z  INFO 1 --- [webflux_2] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2026-03-20T06:37:51.785Z  INFO 1 --- [webflux_2] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-20T06:37:51.791Z  INFO 1 --- [webflux_2] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 10927 ms
+2026-03-20T06:37:54.316Z  INFO 1 --- [webflux_2] [main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [kafka:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2026-03-20T06:37:55.778Z  INFO 1 --- [webflux_2] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.8.1
+2026-03-20T06:37:55.793Z  INFO 1 --- [webflux_2] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 70d6ff42debf7e17
+2026-03-20T06:37:55.794Z  INFO 1 --- [webflux_2] [main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1773988675767
+2026-03-20T06:37:56.012Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T06:37:56.056Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.26.0.11:9092) could not be established. Node may not be available.
+2026-03-20T06:37:56.087Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T06:37:56.098Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.26.0.11:9092) could not be established. Node may not be available.
+2026-03-20T06:37:56.216Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T06:37:56.220Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.26.0.11:9092) could not be established. Node may not be available.
+2026-03-20T06:37:56.452Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T06:37:56.470Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.26.0.11:9092) could not be established. Node may not be available.
+2026-03-20T06:37:56.887Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T06:37:56.888Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.26.0.11:9092) could not be established. Node may not be available.
+2026-03-20T06:37:57.823Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T06:37:57.832Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.26.0.11:9092) could not be established. Node may not be available.
+2026-03-20T06:37:58.870Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T06:37:58.874Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.26.0.11:9092) could not be established. Node may not be available.
+2026-03-20T06:37:59.894Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T06:37:59.897Z  WARN 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -1 (kafka/172.26.0.11:9092) could not be established. Node may not be available.
+2026-03-20T06:38:01.739Z  INFO 1 --- [webflux_2] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-03-20T06:38:02.840Z  INFO 1 --- [webflux_2] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2026-03-20T06:38:02.909Z  INFO 1 --- [webflux_2] [main] com.example.webflux.WebfluxApplication   : Started WebfluxApplication in 26.441 seconds (process running for 28.016)
+2026-03-20T06:43:03.683Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -1 disconnected.
+2026-03-20T06:48:03.764Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T06:53:03.959Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T06:58:04.148Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T08:06:22.632Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T08:11:22.822Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T08:16:23.016Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T08:21:23.211Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T08:26:23.403Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T08:31:23.602Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T08:36:23.790Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T08:41:23.988Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T08:46:24.184Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T08:51:24.356Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T08:56:24.551Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T09:01:24.749Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T09:06:24.936Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T09:11:25.119Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T09:16:25.309Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T09:21:25.503Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T09:26:25.696Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T09:31:25.883Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T09:36:26.073Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T09:41:26.247Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T10:06:25.148Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T10:11:25.333Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T10:16:25.527Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T10:21:25.721Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T10:26:25.906Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T10:31:26.109Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T10:36:26.304Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T10:41:26.459Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T10:46:26.629Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T10:51:26.772Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T10:56:26.967Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T11:01:27.160Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T11:06:27.343Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T11:11:27.532Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T11:16:27.722Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T11:21:27.915Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T11:26:28.100Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T11:31:28.285Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T11:36:28.477Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T11:41:28.664Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T11:46:28.860Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T11:51:29.051Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T11:56:29.232Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T12:01:29.430Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T12:06:29.596Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T12:11:29.794Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T12:16:29.981Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T12:55:31.151Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T13:01:58.875Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T13:06:59.003Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T13:11:59.139Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T13:16:59.339Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T13:21:59.532Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T13:26:59.727Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T13:31:59.919Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T13:37:00.111Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T13:42:00.253Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T13:47:00.440Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T13:52:00.641Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T13:57:00.829Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T14:02:01.014Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T14:07:01.180Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T14:12:01.367Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T14:17:01.551Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T14:22:01.704Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T14:27:01.898Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T14:32:02.093Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T14:37:02.288Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T14:42:02.483Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T14:47:02.657Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T14:52:02.843Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T14:57:03.035Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T15:07:01.165Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T15:12:01.346Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T15:17:01.516Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T15:22:01.720Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T15:27:01.908Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T15:32:02.107Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T15:37:02.296Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T15:42:02.475Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T15:47:02.673Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T15:52:02.871Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T15:57:03.037Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T16:02:03.233Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T16:07:03.417Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T16:12:03.616Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T16:22:30.414Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
+2026-03-20T16:48:22.938Z  INFO 1 --- [webflux_2] [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node 1 disconnected.
